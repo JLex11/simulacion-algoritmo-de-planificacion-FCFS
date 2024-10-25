@@ -36,7 +36,9 @@ class Process {
     this.turnaroundTime = 0
   }
 }
+```
 
+```javascript
 class FCFS {
   constructor() {
     this.processes = []
