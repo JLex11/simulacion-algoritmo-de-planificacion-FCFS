@@ -1,4 +1,3 @@
-import { Dices, Pause, Play, RotateCcw } from 'lucide-react'
 import React, { useEffect, useState } from 'react'
 
 // Process class definition
@@ -123,23 +122,19 @@ const FCFSVisualization = () => {
             onClick={() => setIsRunning(!isRunning)}
             className='px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600'
           >
-            {isRunning ? (
-              <Pause className='inline' />
-            ) : (
-              <Play className='inline' />
-            )}
+            {isRunning ? 'Pausar' : 'Iniciar'}
           </button>
           <button
             onClick={resetSimulation}
             className='px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600'
           >
-            <RotateCcw className='inline' />
+            Reiniciar
           </button>
           <button
             onClick={() => addRamdonProcess()}
             className='px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600'
           >
-            <Dices className='inline' />
+            Agregar proceso
           </button>
         </div>
         <div className='text-lg font-semibold'>Tiempo: {currentTime}</div>
