@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 
-// Process class definition
 class Process {
   constructor(name, arrivalTime, burstTime) {
     this.name = name
