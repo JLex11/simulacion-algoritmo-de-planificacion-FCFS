@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.execution_container {
+  background-image: url('/execution_container_bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
