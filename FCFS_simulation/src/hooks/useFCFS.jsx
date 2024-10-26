@@ -39,10 +39,11 @@ export default function useFCFS() {
     }
 
     return () => clearInterval(timer)
-  }, [isRunning, speed])
+  }, [isRunning, speed, processes])
 
   const addRamdonProcess = () => {
     setProcesses(prev => [...prev, new Process().ramdon(currentTime)])
+    setIsRunning(true)
   }
 
   const updateProcessesStatus = time => {
