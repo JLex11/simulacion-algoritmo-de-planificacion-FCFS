@@ -35,7 +35,7 @@ class Process {
 }
 ```
 
-Una clase `FCFS` que se utiliza para simular el algoritmo de planificación de procesos FCFS. Esta clase tiene los siguientes métodos:
+Una clase `FCFSScheduler` que se utiliza para simular el algoritmo de planificación de procesos FCFS. Esta clase tiene los siguientes métodos:
 
 - `addProcess(process)`: Agrega un proceso a la cola de listos.
 - `printQueueState()`: Imprime el estado actual de la cola de listos, el proceso en ejecución y los procesos completados.
