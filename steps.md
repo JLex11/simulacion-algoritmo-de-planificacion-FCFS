@@ -195,7 +195,9 @@ class FCFSScheduler {
     )
   }
 }
-
+```
+### Ejemplo de uso
+```javascript
 // Crear el planificador
 const scheduler = new FCFSScheduler()
 
